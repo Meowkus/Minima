@@ -41,5 +41,5 @@
         </nav>
             <!-- Пожалйста оставь копирайт тебе не сложно а мне приятно и если что обращайся подскажу -->
             <footer  class="footer">                                                                
-                <a href="mailto:ваш емайил" target=_blank>© <?php echo date("Y"); ?> NICKNAME</a><br>design by <a href="https://t.me/kustrue" target=_blank>MeowKus</a>
+                <a href="mailto:ваш емайил" target=_blank>© <?php echo date("Y"); ?> NICKNAME</a><br>by <a href="https://t.me/kustrue" target=_blank>MeowKus</a>
             </footer>
