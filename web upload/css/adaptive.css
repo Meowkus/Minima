@@ -1,0 +1,273 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1980px){
+
+  ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 30px; /* Отступ слева */
+    padding: 15px;
+    top: 60px;
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+  nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-align: center;
+    top: -80px;
+  }
+    ul li a {
+      position: relative;
+      font-size: 2em;
+      text-decoration: none;
+      line-height: 1em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: transparent;
+      -webkit-text-stroke: 1px var(--main-color-dark);
+    }
+    .ds {
+        color: var(--main-color);
+        cursor: default;
+        text-decoration: none;
+        font-family: "Poppins";
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 1px var(--main-color-dark);
+        font-size: 3em;
+      }
+      .inf{
+        width: 500px;
+        height: 152px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+      }
+      nav {
+        width: 960px;
+        position: relative;
+        margin: 0 auto;
+        top: 15%;
+      }
+      nav ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-55%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    ::-webkit-scrollbar {
+      width: auto;               /* ширина scrollbar */
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+
+  .err {
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Futura PT Light',Arial,sans-serif;
+    font-size: 6em;
+    text-decoration: none;
+    text-align: center;
+    bottom: 12px;
+  }
+
+
+  #texta {
+    float: left;
+  }
+  #dotis {
+    float: right;
+  }
+
+    .slider {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    bottom: 135px;
+    left: 19%;
+    box-shadow: 0 8px 30px 1px rgb(255 110 110);
+}
+
+
+  ul.slick-dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 34%;
+    left: 41%;
+    justify-content: center;
+  }
+
+  ul.hr li {
+    display: flow;
+    margin-top: 20px;
+    padding: 15px;
+    left: 10px;
+    padding: 3px; /* Поля вокруг текста */
+    float: none !important;
+   }
+
+   .arroww {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    font-family: 'Futura PT Light',Arial,sans-serif;
+    font-size: 2.5em;
+    width: 800px;
+    height: 800px;
+    bottom: -45px;
+    left: 11%;
+    text-align: left;
+  }
+
+  .css-slider-wrapper {
+    display: inline-block;
+    background: #FFF;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    bottom: 200;
+    left: 22%;
+    /* margin-right: 50px; */
+  }
+
+    .arrow {
+      color: #ffffff;
+      position: relative;
+      bottom: 15%;
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 2vh;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;               /* ширина scrollbar */
+  }
+
+    .muzmain {
+      text-align: center;
+      position: absolute;
+      top: 30%;
+    }
+    .muzcontainer {
+        position: relative;
+        display: inline-block;
+        line-height: 1em;
+        top: 40%;
+        height: 720px;
+        overflow: auto;
+        margin: 10px;
+    }
+    .inf{
+        width: 800px;
+        height: 352px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+      }
+    .ds {
+        color: var(--main-color);
+        cursor: default;
+        text-decoration: none;
+        font-family: "Poppins";
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 3px var(--main-color-dark);
+        font-size: 1.6em;
+      }
+    h1 {
+        margin: 0;
+        padding-bottom: 0rem;
+        grid-column: 1;
+        grid-row: 1;
+        z-index: 1;
+        font-family: 'Teko', sans-serif;
+        font-size: 180px;
+        text-transform: uppercase;
+        animation: glow 2s ease-in-out infinite alternate;
+        text-align: center;
+    }
+    .sign {
+        color: var(--main-color);
+        position: absolute;
+        top: 20%;
+        left: auto;
+        height: 100px;
+        font-family: "Calibri";
+        text-align: center;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        height: 58px;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        font-size: 1.6em;
+    }
+    .head {
+        position: absolute;
+        top: 40;
+        height: 58px;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        font-size: 2.8em;
+    }
+    nav {
+      width: 960px;
+      position: relative;
+      margin: 0 auto;
+      top: 10%;
+    }
+    nav ul {
+      position: absolute;
+      left: 52%;
+      transform: translateX(-55%);
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+      top: -300px;
+  }
+    ul li a {
+        position: relative;
+        font-size: 4.5em;
+        text-decoration: none;
+        line-height: 1em;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 3px var(--main-color-dark);
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 578px){
+
+}
+
+@media only screen and (max-width: 320px){
+    
+}
