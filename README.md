@@ -4,7 +4,13 @@ Website template for a music artist
 Шаблон веб-сайта для музыкального исполнителя
 
 ![1](https://i.imgur.com/LKIRrNT.png)
+
+-----
+
 ![2](https://i.imgur.com/vklW3Lf.png)
+
+-----
+
 ![3](https://i.imgur.com/0cRLdIw.png)
 
 # Install:
