@@ -23,6 +23,7 @@
     <!-- Блок link -->
     <link rel="image_src" href="<?php echo $dir.'/img/favicon.png'; ?>">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $dir.'/css/style.css'; ?>">
     <link rel="stylesheet" href="<?php echo $dir.'/css/adaptive.css'; ?>">
 	<link rel="stylesheet" href="<?php echo $dir.'/css/links.css'; ?>">
