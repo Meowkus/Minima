@@ -39,7 +39,8 @@
             </li>
             </ul>
         </nav>
-            <!-- Пожалйста оставь копирайт тебе не сложно а мне приятно и если что обращайся подскажу -->
+            <!-- Пожалйста не удаляй копирайт тебе не сложно а мне приятно и если что обращайся подскажу -->
+            <!-- Please do not delete the copyright, it is not difficult for you, but it is pleasant for me and if anything, please contact me -->
             <footer  class="footer">                                                                
-                <a href="mailto:ваш емайил" target=_blank>© <?php echo date("Y"); ?> NICKNAME</a><br>by <a href="https://t.me/kustrue" target=_blank>MeowKus</a>
+                <a href="mailto:ваш емайил" target=_blank>© <?php echo date("Y"); ?> NICKNAME</a><br>design by <a href="https://t.me/kustrue" target=_blank>MeowKus</a>
             </footer>
