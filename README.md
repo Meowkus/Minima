@@ -1,5 +1,6 @@
 # Minima
 Website template for a music artist
+
 Шаблон веб-сайта для музыкального исполнителя
 # Install:
 Change the data in:
